@@ -15,4 +15,4 @@ Installation och användning
 2. Starta Safari och högerklicka på ett ord på valfri webbsida.
 3. Välj Tyda.se: *Ordet* i menyn.
 
-![Screenshot](http://github.com/mh77/tyda.safariextension/screenshot.png)
+![Screenshot](http://github.com/mh77/tyda.safariextension/blob/master/screenshot.png)
