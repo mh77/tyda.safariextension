@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<script>
+  function openTab(event) {
+    if (event.command === 'tyda') {
+      var term = event.userInfo;
+      var newTab = safari.application.activeBrowserWindow.openTab();
+      newTab.url = "http://tyda.se/search?form=1&w=" + encodeURIComponent(term);
+    }
+    else {
+      return;
+    }
+  }
+  
+  function validate(event) {
+    var term = event.userInfo;
+    if(term.length > 0) {
+      event.target.title = "Tyda.se: " + event.userInfo;
+    }
+    else {
+      event.target.disabled = true;
+    }
+  }
+  
+  safari.application.addEventListener("validate", validate, false);
+  safari.application.addEventListener("command", openTab, false);
+</script>
