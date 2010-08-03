@@ -1,5 +1,5 @@
 Tyda Safari Extension
-=======================
+=====================
 
 *Safari Extension som visar översättning av markerat ord på Tyda.se*
 
