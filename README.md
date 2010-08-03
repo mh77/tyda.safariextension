@@ -13,6 +13,4 @@ Installation och användning
 
 1. Klicka på den nedladdade filen för att installera.
 2. Starta Safari och högerklicka på ett ord på valfri webbsida.
-3. Välj Tyda.se: *Ordet* i menyn.
-
-![Screenshot](http://github.com/mh77/tyda.safariextension/blob/master/screenshot.png)
+3. Välj Tyda.se: *OrdetSomSkaÖversättas* i menyn.
